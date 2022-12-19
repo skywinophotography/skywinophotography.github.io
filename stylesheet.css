@@ -1,0 +1,15 @@
+img{
+    max-height: 250px;
+    width: auto;
+}
+
+#profile-pic{
+    max-height: 300px;
+    width: auto;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px
+}
+
+#navbar a{
+    font-size: 18px;
+}
