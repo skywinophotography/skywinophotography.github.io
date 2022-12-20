@@ -12,6 +12,12 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <!--CSS-->
   <link rel="stylesheet" href="stylesheet.css">
+  <!--Enable Bootstrap tooltips-->
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
 
 </head>
 
@@ -29,21 +35,20 @@
   <main>
     <div class="container"><h1 class="display-3 text-light text-center mt-4">Sky Wino Photography</h1></div>
     <div class="container"><p class="h2 text-light text-left pt-3 mt-5"><u>Gig Photography Portfolio</p></u></div>
-    <div class="container"><p class="h5 text-light mt-2 text-center">(click to open full image in new tab)</p></div>
     <div class="container my-3">
         <div class="row my-2">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3863.jpg" target="_blank"><img src="assets\thumbnails\DSC3863.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4073.jpg" target="_blank"><img src="assets\thumbnails\DSC4073.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4196.jpg" target="_blank"><img src="assets\thumbnails\DSC4196.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC2629.jpg" target="_blank"><img src="assets\thumbnails\DSC2629.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3456.jpg" target="_blank"><img src="assets\thumbnails\DSC3456.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3047.jpg" target="_blank"><img src="assets\thumbnails\DSC3047.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4747.jpg" target="_blank"><img src="assets\thumbnails\DSC4747.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3094.jpg" target="_blank"><img src="assets\thumbnails\DSC3094.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3053.jpg" target="_blank"><img src="assets\thumbnails\DSC3053.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC2688.jpg" target="_blank"><img src="assets\thumbnails\DSC2688.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3104.jpg" target="_blank"><img src="assets\thumbnails\DSC3104.jpg" alt="" class="img-thumbnail"></a></div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3335.jpg" target="_blank"><img src="assets\thumbnails\DSC3335.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3863.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3863.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4073.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC4073.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4196.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC4196.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC2629.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC2629.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3456.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3456.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3047.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3047.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC4747.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC4747.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3094.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3094.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3053.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3053.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC2688.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC2688.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3104.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3104.jpg" alt="" class="img-thumbnail"></a></div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2"><a href="assets\gig\DSC3335.jpg" data-toggle="tooltip" title="Click to view full res image in a new tab." target="_blank"><img src="assets\thumbnails\DSC3335.jpg" alt="" class="img-thumbnail"></a></div>
         </div>
     </div>
   </main>
