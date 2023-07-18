@@ -11,6 +11,10 @@ img{
     border-bottom-left-radius: 50px
 }
 
+#mastodon_verification{
+    display: none;
+}
+
 .nav-item{
     font-weight: bold;
     font-size: 18px;
